@@ -18,13 +18,13 @@ main{
     padding: 20px;
 }
 .navbar{
-    background: rgb(92, 82, 82);
+    background: #99b989;
     text-align: center;
     padding: 10px;
     overflow: hidden;
 }
 .navbar a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 25px;
     padding-right: 20px;
@@ -37,7 +37,7 @@ main{
     font-size: 35px;
 }
 .leftbar{
-    background: rgb(158, 156, 154);
+    background: #fecea8;
     width: 25%;
     padding: 25px;
     float: left;
@@ -60,7 +60,7 @@ main{
     float: left;
     padding: 10px;
     text-align: justify;
-    background: rgb(195, 195, 195);
+    background: #ff847c;
     height: 420px;
     overflow: hidden;
 }
@@ -77,7 +77,7 @@ main{
     padding: 1%;
     width: 25%;
     height: 420px;
-    background: rgb(149, 147, 147);
+    background: #e84a5f;
     overflow: hidden;
 }
 .content{
@@ -85,10 +85,11 @@ main{
 }
 .owner-info{
     width: 50%;
-    background: rgb(192, 170, 170);
+    background: #2a363b;
     padding: 20px;
     text-align: center;
     float: left;
+    color: white;
 }
 .social-icon{
     width: 50%;
