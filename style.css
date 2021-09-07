@@ -1,38 +1,46 @@
+/* this star selector is used for the whole html body */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* this body selector works with the element of the HTML body */
 body {
     background-color: #f3f3f3;
     font-family: 'Courier New', Courier, monospace;
 }
+/* the main selector is used for highlighting the main content of the webpage */
 main{
     overflow: hidden;
 }
+/* this style for a button will work for all of the buttons will be added in the webpage */
 button{
     padding: 10px;
 }
-
+/* this head class is used for the header section and there a class is created which name is head */
 .head {
     background: #fff;
     text-align: center;
     padding: 20px;
 }
+/* navbar also that type of class */
 .navbar{
     background: #99b989;
     padding: 10px;
     overflow: hidden;
     height: 60px;
 }
+/* here we selected the unordered list by navigating the navbar */
 .navbar ul{
     list-style-type: none;
 }
+/* here first navbar class then unordered list and then ordered list */
 .navbar ul li{
     float: left;
     margin-right: 10px;
     border-right: 1px solid white;
 }
+/* here is the anchor element of the navbar class */
 .navbar a{
     display: block;
     color: rgb(255, 255, 255);
@@ -40,12 +48,15 @@ button{
     font-size: 25px;
     padding: 10px 10px;
 }
+/* removed last elements right border */
 .navbar ul li:last-child {
     border-right: none;
 }
+/* pseudo code for the hover effect */
 .navbar a:hover{
     font-size: 35px;
 }
+/* class leftar which is used for the left side bar */
 .leftbar{
     background: #fecea8;
     width: 25%;
@@ -53,24 +64,29 @@ button{
     float: left;
     height: 420px;
 }
+/* class leftbar and then ul and then a. The target was to select a */
 .leftbar ul a{
     text-decoration: none;
     font-size: 25px;
     color: rgb(65, 65, 65);
     display: block;
 }
+/* here comes an ID na,ed html */
 #html{
     width: 325px;
     background: rgb(189, 178, 178);
 }
+/* the IDs' anchor */
 #html a{
     color: red;
 }
+/* hover for a  class' uls' a */
 .leftbar ul a:hover{
     
     width: 325px;
     background: rgb(189, 178, 178);
 }
+/* another class named main-content */
 .main-content{
     width: 50%;
     float: left;
@@ -80,13 +96,16 @@ button{
     height: 420px;
     overflow: hidden;
 }
+/* again class and then paragraph */
 .pages p{
     text-align: center;
     margin-top: 15px;
 }
+/* class paragraph and then anchor */
 .pages p a{
     color:red;
 }
+/* right sidebar selection through the class rightbar */
 .rightbar{
     text-align: center;
     float: left;
@@ -96,14 +115,17 @@ button{
     background: #e84a5f;
     overflow: hidden;
 }
+/* class */
 .content{
     margin-top: 100px;
 }
+/* ID */
 #email{
     height: 30px;
     width: 250px;
     margin-bottom: 5px;
 }
+/* class for a division of footer */
 .owner-info{
     width: 50%;
     background: #2a363b;
@@ -112,6 +134,7 @@ button{
     float: left;
     color: white;
 }
+/* another class for a division of footer */
 .social-icon{
     width: 50%;
     background: rgb(172, 172, 172);
@@ -119,10 +142,12 @@ button{
     text-align: center;
     float: left;
 }
+/* class' anchor */
 .social-icon a{
     color: rgb(163, 27, 27);
     margin-right: 5px;
 }
+/* responsiveness for mobile screen */
 @media screen and (max-width:600px) {
     .head{
         width: 100%;
@@ -154,6 +179,7 @@ button{
         height: auto;
     }
 }
+/* responsiveness for medium screen devices like tablet */
 @media screen and (max-width:992px) {
     .head{
         width: 100%;
@@ -183,6 +209,7 @@ button{
         width: 100%;
     }
 }
+/* large screen responsiveness like monitor */
 @media screen and (max-width:1312px) {
     .head{
         width: 100%;
