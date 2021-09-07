@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    overflow: hidden;
+}
+
+.head {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.navbar{
+    background: rgb(92, 82, 82);
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 20px;
+    border-right: 1px solid white;
+}
+.navbar a:last-child{
+    border-right: none;
+}
+.navbar a:hover{
+    font-size: 35px;
+}
+.leftbar{
+    background: rgb(158, 156, 154);
+    width: 25%;
+    padding: 25px;
+    float: left;
+    height: 420px;
+}
+
+.leftbar ul a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+#html{
+    background: rgb(189, 178, 178);
+}
+#html a{
+    color: red;
+}
+.main-content{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    text-align: justify;
+    background: rgb(195, 195, 195);
+    height: 420px;
+    overflow: hidden;
+}
+.pages p{
+    text-align: center;
+    margin-top: 30px;
+}
+.pages p a{
+    color:red;
+}
+.rightbar{
+    text-align: center;
+    float: left;
+    padding: 1%;
+    width: 25%;
+    height: 420px;
+    background: rgb(149, 147, 147);
+    overflow: hidden;
+}
+.content{
+    margin-top: 100px;
+}
+.owner-info{
+    width: 50%;
+    background: rgb(192, 170, 170);
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+.social-icon{
+    width: 50%;
+    background: rgb(172, 172, 172);
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+.social-icon a{
+    color: rgb(163, 27, 27);
+    margin-right: 5px;
+}
+@media screen and (max-width:600px) {
+    .head{
+        width: 100%;
+    }
+    .leftbar{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .main-content{
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+    .rightbar{
+        height: 300px;
+        width: 100%;
+    }
+    .owner-info{
+        width: 100%;
+        height: auto;
+    }
+    .social-icon{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:992px) {
+    .head{
+        width: 100%;
+    }
+    .leftbar{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .main-content{
+        width: 100%;
+        float: none;
+    }
+    .rightbar{
+        width: 100%;
+        float: none;
+        height: 200px;
+    }
+    .owner-info{
+        width: 100%;
+    }
+    .social-icon{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1312px) {
+    .head{
+        width: 100%;
+    }
+    .leftbar{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .main-content{
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+    .rightbar{
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+    .owner-info{
+        width: 100%;
+    }
+    .social-icon{
+        width: 100%;
+    }
+}
