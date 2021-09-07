@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: #f3f3f3;
     font-family: 'Courier New', Courier, monospace;
@@ -34,7 +33,6 @@ button{
     margin-right: 10px;
     border-right: 1px solid white;
 }
-/* text-align: center; */
 .navbar a{
     display: block;
     color: rgb(255, 255, 255);
@@ -55,7 +53,6 @@ button{
     float: left;
     height: 420px;
 }
-
 .leftbar ul a{
     text-decoration: none;
     font-size: 25px;
@@ -107,7 +104,6 @@ button{
     width: 250px;
     margin-bottom: 5px;
 }
-
 .owner-info{
     width: 50%;
     background: #2a363b;
@@ -130,6 +126,10 @@ button{
 @media screen and (max-width:600px) {
     .head{
         width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        height: 200px;
     }
     .leftbar{
         width: 100%;
@@ -157,6 +157,10 @@ button{
 @media screen and (max-width:992px) {
     .head{
         width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        height: 150px;
     }
     .leftbar{
         width: 100%;
