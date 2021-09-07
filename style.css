@@ -11,6 +11,9 @@ body {
 main{
     overflow: hidden;
 }
+button{
+    padding: 10px;
+}
 
 .head {
     background: #fff;
@@ -19,18 +22,27 @@ main{
 }
 .navbar{
     background: #99b989;
-    text-align: center;
     padding: 10px;
     overflow: hidden;
+    height: 60px;
 }
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li{
+    float: left;
+    margin-right: 10px;
+    border-right: 1px solid white;
+}
+/* text-align: center; */
 .navbar a{
+    display: block;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 25px;
-    padding-right: 20px;
-    border-right: 1px solid white;
+    padding: 10px 10px;
 }
-.navbar a:last-child{
+.navbar ul li:last-child {
     border-right: none;
 }
 .navbar a:hover{
@@ -47,13 +59,20 @@ main{
 .leftbar ul a{
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: rgb(65, 65, 65);
+    display: block;
 }
 #html{
+    width: 325px;
     background: rgb(189, 178, 178);
 }
 #html a{
     color: red;
+}
+.leftbar ul a:hover{
+    
+    width: 325px;
+    background: rgb(189, 178, 178);
 }
 .main-content{
     width: 50%;
@@ -66,7 +85,7 @@ main{
 }
 .pages p{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .pages p a{
     color:red;
@@ -83,6 +102,12 @@ main{
 .content{
     margin-top: 100px;
 }
+#email{
+    height: 30px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
 .owner-info{
     width: 50%;
     background: #2a363b;
